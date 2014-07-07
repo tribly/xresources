@@ -1,1 +1,62 @@
-sync/shared_configs/Xresources
+! yankable/clickable URLs
+URxvt.perl-ext: default,url-select,matcher
+URxvt.keysym.C-i: perl:url-select:select_next
+URxvt.url-select.launcher: chromium
+URxvt.url-select.underline: true
+URxvt.matcher.button: 3
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+! fix for screen
+urxvt*termName: rxvt-256color
+URxvt.scrollBar: false
+
+URxvt*saveLines: 12000
+
+! Font
+URxvt.font: xft:Meslo LG S for Powerline:size=10
+xft.dpi: 88
+
+URxvt.urgentOnBell: true
+
+! Transparency
+URxvt*.transparent: false
+
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*.shading: 10
+
+URxvt*background:         #292929
+URxvt*foreground:         #eeeeec
+
+! from http://xcolors.net/dl/insignificato
+!Black
+URxvt*color0:           #3d3e3d
+URxvt*color8:           #5a5b5c
+!Red
+URxvt*color1:           #755a5b
+URxvt*color9:           #a37679
+!Green
+URxvt*color2:           #68755a
+URxvt*color10:          #87a376
+!Yellow
+URxvt*color3:           #756e5a
+URxvt*color11:          #a39b76
+!Blue
+URxvt*color4:           #5b6976
+URxvt*color12:          #758ba3
+!Magenta
+URxvt*color5:           #755b76
+URxvt*color13:          #9f76a3
+!Cyan
+URxvt*color6:           #5b7674
+URxvt*color14:          #75a3a1
+!White
+URxvt*color7:           #808080
+URxvt*color15:          #aeafb0
