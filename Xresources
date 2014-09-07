@@ -5,6 +5,10 @@ URxvt.url-select.launcher: chromium
 URxvt.url-select.underline: true
 URxvt.matcher.button: 3
 
+Xft.antialias: true
+Xft.autohint: 0
+Xft.hinting: 1
+
 ! do not scroll with output
 URxvt*scrollTtyOutput: false
 
