@@ -1,7 +1,7 @@
 ! yankable/clickable URLs
 URxvt.perl-ext: default,url-select,matcher
 URxvt.keysym.C-i: perl:url-select:select_next
-URxvt.url-select.launcher: chromium
+URxvt.url-select.launcher: /home/heinz/scripts/linker
 URxvt.url-select.underline: true
 URxvt.matcher.button: 3
 
