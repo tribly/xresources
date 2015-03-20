@@ -25,7 +25,7 @@ URxvt.scrollBar: false
 URxvt*saveLines: 12000
 
 ! Font
-URxvt.font: xft:Meslo LG S for Powerline:size=10
+URxvt.font: xft:PragmataPro for Powerline:size=10
 xft.dpi: 88
 
 URxvt.urgentOnBell: true
