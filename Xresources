@@ -7,7 +7,12 @@ URxvt.matcher.button: 3
 
 Xft.antialias: true
 Xft.autohint: 0
+Xft.utf8:1
+xft.dpi: 96
 Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
 
 ! do not scroll with output
 URxvt*scrollTtyOutput: false
@@ -25,8 +30,7 @@ URxvt.scrollBar: false
 URxvt*saveLines: 12000
 
 ! Font
-URxvt.font: xft:Envy Code R for Powerline:size=10
-xft.dpi: 88
+URxvt.font: xft:Envy Code R for Powerline:size=11, xft:Unifont:size=10
 
 URxvt.urgentOnBell: true
 
