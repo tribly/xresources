@@ -37,10 +37,8 @@ URxvt.urgentOnBell: true
 ! Transparency
 URxvt*.transparent: false
 
-! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
-URxvt*.shading: 10
-
-URxvt*background:         #292929
+! Equals ctermbg=235
+URxvt*background:         #262626
 URxvt*foreground:         #eeeeec
 
 ! from http://xcolors.net/dl/insignificato
