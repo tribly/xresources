@@ -30,7 +30,7 @@ URxvt.scrollBar: false
 URxvt*saveLines: 12000
 
 ! Font
-URxvt.font: xft:Envy Code R for Powerline:size=11, xft:Unifont:size=11
+URxvt.font: xft:Envy Code R for Powerline:size=11, xft:Unifont:size=11, xft:Symbola:size=11, xft:Droid Sans:size=11
 
 URxvt.urgentOnBell: true
 
